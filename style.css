@@ -1,0 +1,73 @@
+body {
+  margin: 0;
+  font-family: 'Georgia', serif;
+  background-color: #0b2e3a;
+  color: #1d1d1d;
+  transition: background-color 0.4s ease-in-out;
+}
+header.hero {
+  background-image: url('https://kiawahresort.com/wp-content/uploads/2018/08/hero-home.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 3rem 1rem;
+  text-align: center;
+  color: white;
+  position: relative;
+}
+.overlay {
+  background: rgba(0, 0, 0, 0.4);
+  padding: 2rem;
+  border-radius: 8px;
+}
+.logo {
+  max-width: 240px;
+  margin-bottom: 1rem;
+  filter: drop-shadow(0 1px 2px rgba(0,0,0,0.5));
+  transition: transform 0.3s ease;
+}
+.logo:hover {
+  transform: scale(1.02);
+}
+h1 {
+  font-size: 2.5rem;
+  letter-spacing: 2px;
+  margin: 0.5rem 0;
+}
+h2 {
+  font-weight: 400;
+  font-size: 1.2rem;
+  letter-spacing: 1px;
+}
+main.card-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+.card-container section {
+  background: #f8f5ec;
+  border-radius: 10px;
+  padding: 1.2rem 1.5rem;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.card-container section:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+section h3 {
+  font-size: 1rem;
+  color: #0b2e3a;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 0.5rem;
+}
+footer {
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.9rem;
+  color: #ccc;
+}
